@@ -15,6 +15,15 @@ import org.jsoup.select.Elements;
 public class WikiFetcher {
 	private long lastRequestTime = -1;
 	private long minInterval = 1000;
+	
+	private static final WikiFetcher INSTANCE = new WikiFetcher();
+	
+	private WikiFetcher () {}
+	
+	public static WikiFetcher getInstance() {
+		
+		return INSTANCE;
+	}
 
 	/**
 	 * Fetches and parses a URL string, returning a list of paragraph elements.

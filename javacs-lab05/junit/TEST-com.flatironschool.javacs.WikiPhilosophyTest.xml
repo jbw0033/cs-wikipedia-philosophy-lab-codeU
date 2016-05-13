@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="JeremyWoods-PC" name="com.flatironschool.javacs.WikiPhilosophyTest" skipped="0" tests="1" time="5.367" timestamp="2016-05-13T01:04:53">
+  <properties>
+    <property name="env.OLDPWD" value="c:/Sites" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="env.VS120COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_60\jre" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed" />
+    <property name="env.LOGNAME" value="Jeremy Woods" />
+    <property name="env.USERNAME" value="Jeremy Woods" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.!::" value="::\" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.COMPUTERNAME" value="JEREMYWOODS-PC" />
+    <property name="env.=C:" value="c:\Sites\cs-wikipedia-philosophy-lab-codeU" />
+    <property name="java.version" value="1.8.0_60" />
+    <property name="sun.stdout.encoding" value="cp437" />
+    <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.USERPROFILE" value="C:\Users\Jeremy Woods" />
+    <property name="env.PLINK_PROTOCOL" value="ssh" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="user.name" value="Jeremy Woods" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\Jeremy Woods\AppData\Local" />
+    <property name="env.WINDOWS_TRACING_LOGFILE" value="C:\BVTBin\Tests\installpackage\csilogfile.log" />
+    <property name="env.COMMONPROGRAMW6432" value="C:\Program Files\Common Files" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="user.timezone" value="" />
+    <property name="user.script" value="" />
+    <property name="path.separator" value=";" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel" />
+    <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.8.0_60\bin\java.exe" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="env.HOME" value="c:/Users/Jeremy Woods" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.WikiPhilosophyTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,c:\Sites\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\junit\TEST-com.flatironschool.javacs.WikiPhilosophyTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=c:\Sites\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\junitvmwatcher8745559616787586379.properties propsfile=c:\Sites\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\junit284576323472639307.properties" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="env.APPDATA" value="C:\Users\Jeremy Woods\AppData\Roaming" />
+    <property name="ant.file" value="c:\Sites\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\build.xml" />
+    <property name="env.WINDIR" value="C:\WINDOWS" />
+    <property name="env._" value="c:/RailsInstaller/Ruby2.2.0/bin/learn-test" />
+    <property name="java.io.tmpdir" value="C:\Users\JEREMY~1\AppData\Local\Temp\" />
+    <property name="user.language" value="en" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="target" value="1.7" />
+    <property name="env.GNUPGHOME" value="c:/Users/Jeremy Woods/.gnupg" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.COMMONPROGRAMFILES" value="C:\Program Files\Common Files" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="source" value="1.7" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="JeremyWoods-PC" />
+    <property name="env.LOGONSERVER" value="\\JEREMYWOODS-PC" />
+    <property name="env.PSMODULEPATH" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files\WindowsPowerShell\Modules\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="env.USERDOMAIN" value="JeremyWoods-PC" />
+    <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+    <property name="env.PROGRAMFILES(X86)" value="C:\Program Files (x86)" />
+    <property name="os.name" value="Windows 10" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.TMP" value="C:/Users/JEREMY~1/AppData/Local/Temp" />
+    <property name="env.TERM" value="cygwin" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Jeremy Woods\bin;.;C:\RailsInstaller\Git\local\bin;C:\RailsInstaller\Git\mingw\bin;C:\RailsInstaller\Git\bin;c:\ProgramData\Oracle\Java\javapath;c:\Program Files\Common Files\Microsoft Shared\Windows Live;c:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;c:\WINDOWS\system32;c:\WINDOWS;c:\WINDOWS\System32\Wbem;c:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Windows Live\Shared;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;c:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;c:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;c:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;c:\Program Files (x86)\Skype\Phone\;c:\Program Files (x86)\GtkSharp\2.12\bin;c:\Program Files\Microsoft\Web Platform Installer\;c:\Program Files (x86)\Microsoft SDKs\Azure\CLI\wbin;c:\Program Files (x86)\Microsoft SQL Server Migration Assistant for Access\bin\;c:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SQL Server\120\Tools\Binn\;c:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;c:\Program Files\Microsoft SQL Server\120\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\RailsInstaller\Git\cmd;c:\RailsInstaller\Ruby2.2.0\bin;c:\Program Files\Java\jdk1.8.0_60;c:\Program Files\Ant\bin;." />
+    <property name="env.PROGRAMW6432" value="C:\Program Files" />
+    <property name="env.PATH" value="c:\Users\Jeremy Woods\bin;.;C:\RailsInstaller\Git\local\bin;C:\RailsInstaller\Git\mingw\bin;C:\RailsInstaller\Git\bin;c:\ProgramData\Oracle\Java\javapath;c:\Program Files\Common Files\Microsoft Shared\Windows Live;c:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;c:\WINDOWS\system32;c:\WINDOWS;c:\WINDOWS\System32\Wbem;c:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Windows Live\Shared;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;c:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;c:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;c:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;c:\Program Files (x86)\Skype\Phone\;c:\Program Files (x86)\GtkSharp\2.12\bin;c:\Program Files\Microsoft\Web Platform Installer\;c:\Program Files (x86)\Microsoft SDKs\Azure\CLI\wbin;c:\Program Files (x86)\Microsoft SQL Server Migration Assistant for Access\bin\;c:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SQL Server\120\Tools\Binn\;c:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;c:\Program Files\Microsoft SQL Server\120\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\RailsInstaller\Git\cmd;c:\RailsInstaller\Ruby2.2.0\bin;c:\Program Files\Java\jdk1.8.0_60;c:\Program Files\Ant\bin" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="basedir" value="c:\Sites\cs-wikipedia-philosophy-lab-codeU\javacs-lab05" />
+    <property name="java.class.version" value="52.0" />
+    <property name="env.SHLVL" value="1" />
+    <property name="ant.home" value="C:\Program Files\Ant" />
+    <property name="ant.file.JavaCS" value="c:\Sites\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\build.xml" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="env.SYSTEMROOT" value="C:\WINDOWS" />
+    <property name="env.COMSPEC" value="C:\WINDOWS\system32\cmd.exe" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin" />
+    <property name="env.SYSTEMDRIVE" value="C:" />
+    <property name="env.PROCESSOR_REVISION" value="3a09" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="user.variant" value="" />
+    <property name="env.GTK_BASEPATH" value="C:\Program Files (x86)\GtkSharp\2.12\" />
+    <property name="env.LESSCHARSET" value="utf-8" />
+    <property name="env.USER" value="Jeremy Woods" />
+    <property name="ant.file.type.JavaCS" value="file" />
+    <property name="env.HISTFILE" value="c:/Users/Jeremy Woods/.bash_history" />
+    <property name="ant.project.name" value="JavaCS" />
+    <property name="env.PROGRAMFILES" value="C:\Program Files" />
+    <property name="env.LESS" value="-FRSX" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="env.PROGRAMDATA" value="C:\ProgramData" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.stderr.encoding" value="cp437" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="env.SSL_CERT_FILE" value="C:\RailsInstaller\cacert.pem" />
+    <property name="os.version" value="10.0" />
+    <property name="user.home" value="C:\Users\Jeremy Woods" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_60" />
+    <property name="env.INPUTRC" value="C:/RailsInstaller/Git/etc/inputrc" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="user.dir" value="c:\Sites\cs-wikipedia-philosophy-lab-codeU" />
+    <property name="env.COMMONPROGRAMFILES(X86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="env.PWD" value="c:/Sites/cs-wikipedia-philosophy-lab-codeU" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="env._USE_CLASSPATH" value="no" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="env.MAKE_MODE" value="unix" />
+    <property name="java.vm.version" value="25.60-b23" />
+    <property name="java.class.path" value="c:\Sites\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\bin;c:\Sites\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\lib\jsoup-1.8.3.jar;c:\Sites\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\lib\junit-4.12.jar;c:\Sites\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\lib\hamcrest-core-1.3.jar;C:\Program Files\Ant\lib\ant-launcher.jar;C:\Program Files\Ant\lib\ant.jar;C:\Program Files\Ant\lib\ant-junit.jar;C:\Program Files\Ant\lib\ant-junit4.jar" />
+    <property name="env.HOMEPATH" value="\Users\Jeremy Woods" />
+    <property name="ant.library.dir" value="C:\Program Files\Ant\lib" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.MINITAB_LICENSE_FILE" value="C:\Program Files (x86)\Minitab\Minitab 17" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.WINDOWS_TRACING_FLAGS" value="3" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="ant.core.lib" value="C:\Program Files\Ant\lib\ant.jar" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="file.separator" value="\" />
+    <property name="env.ANT_CMD_LINE_ARGS" value=" test -buildfile javacs-lab05/build.xml" />
+    <property name="java.runtime.version" value="1.8.0_60-b27" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes" />
+    <property name="env.ANDROID_NDK_PATH" value="C:\Users\Jeremy Woods\Documents\Android\ndk\android-ndk-r10e" />
+    <property name="env.TEMP" value="C:/Users/JEREMY~1/AppData/Local/Temp" />
+    <property name="env.VS110COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\" />
+    <property name="env.ANT_HOME" value="C:\Program Files\Ant" />
+    <property name="user.country" value="US" />
+    <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="env.MSYSTEM" value="MINGW32" />
+    <property name="sun.arch.data.model" value="64" />
+  </properties>
+  <testcase classname="com.flatironschool.javacs.WikiPhilosophyTest" name="testMain" time="5.301" />
+  <system-out><![CDATA[Philosophy Page Has Been Found!
+https://en.wikipedia.org/wiki/Java_(programming_language)
+https://en.wikipedia.org/wiki/Programming_language
+https://en.wikipedia.org/wiki/Formal_language
+https://en.wikipedia.org/wiki/Mathematics
+https://en.wikipedia.org/wiki/Quantity
+https://en.wikipedia.org/wiki/Property_(philosophy)
+https://en.wikipedia.org/wiki/Philosophy
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
